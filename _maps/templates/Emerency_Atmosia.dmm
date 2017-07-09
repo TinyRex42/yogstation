@@ -11,7 +11,7 @@
 "ak" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/visible,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "al" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "am" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 9},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"an" = (/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"an" = (/obj/structure/tank_dispenser,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "ao" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 6},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "ap" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{tag = "icon-intact (SOUTHWEST)"; icon_state = "intact"; dir = 10},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "aq" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{req_access_txt = 1},/turf/closed/wall/shuttle,/area/space)
@@ -33,47 +33,49 @@
 "aG" = (/obj/machinery/atmospherics/pipe/simple/green/visible,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "aH" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
 "aI" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 4},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aJ" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{tag = "icon-intact (NORTH)"; icon_state = "intact"; dir = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aK" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aL" = (/obj/machinery/atmospherics/components/trinary/filter{dir = 2; filter_type = "o2"; on = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aM" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden{dir = 8},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aN" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/supply/hidden,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aO" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{tag = "icon-intact (NORTHEAST)"; icon_state = "intact"; dir = 5},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aP" = (/obj/machinery/atmospherics/components/binary/pump{dir = 8; name = "O2 Outlet Pump"; on = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aQ" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/supply/hidden{req_access_txt = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aR" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden{dir = 4; initialize_directions = 11},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aS" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4; name = "input gas connector port"},/obj/machinery/portable_atmospherics/canister/carbon_dioxide{filled = 0.1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aT" = (/obj/machinery/atmospherics/components/trinary/filter{filter_type = "co2"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aU" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 8},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aV" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden{req_access_txt = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aW" = (/obj/machinery/atmospherics/pipe/manifold/supply/visible{tag = "icon-manifold (WEST)"; icon_state = "manifold"; dir = 8},/turf/closed/wall/shuttle,/area/space)
-"aX" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,/obj/machinery/atmospherics/components/binary/pump{dir = 4; name = "Distro to Portable Pump"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aY" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 8},/obj/machinery/portable_atmospherics/pump,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"aZ" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4; name = "input gas connector port"},/obj/machinery/portable_atmospherics/canister/nitrous_oxide{filled = 0.1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"ba" = (/obj/machinery/atmospherics/components/trinary/filter{filter_type = "n2o"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bb" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 8},/obj/machinery/portable_atmospherics/scrubber,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bc" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4; name = "input gas connector port"},/obj/machinery/portable_atmospherics/canister,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bd" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4; initialize_directions = 12},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"be" = (/obj/machinery/atmospherics/components/trinary/filter/flipped{dir = 4; filter_type = "plasma"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bf" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 9},/obj/machinery/atmospherics/components/unary/vent_scrubber{dir = 2; on = 1; scrub_Toxins = 0},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bg" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 5},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bh" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bi" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 1; layer = 2.9},/obj/machinery/portable_atmospherics/canister/toxins{filled = 0.1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bj" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bk" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 5},/turf/closed/wall/shuttle,/area/space)
-"bl" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden{tag = "icon-manifold-b-f (NORTH)"; dir = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
-"bm" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 9},/turf/closed/wall/shuttle,/area/space)
+"aJ" = (/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aK" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{tag = "icon-intact (NORTH)"; icon_state = "intact"; dir = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aL" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4},/obj/machinery/portable_atmospherics/canister/oxygen,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aM" = (/obj/machinery/atmospherics/components/trinary/filter{dir = 2; filter_type = "o2"; on = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aN" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden{dir = 8},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aO" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/supply/hidden,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aP" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{tag = "icon-intact (NORTHEAST)"; icon_state = "intact"; dir = 5},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aQ" = (/obj/machinery/atmospherics/components/binary/pump{dir = 8; name = "O2 Outlet Pump"; on = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aR" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/supply/hidden{req_access_txt = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aS" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden{dir = 4; initialize_directions = 11},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aT" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4; name = "input gas connector port"},/obj/machinery/portable_atmospherics/canister/carbon_dioxide{filled = 0.1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aU" = (/obj/machinery/atmospherics/components/trinary/filter{filter_type = "co2"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aV" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 8},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aW" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden{req_access_txt = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aX" = (/obj/machinery/atmospherics/pipe/manifold/supply/visible{tag = "icon-manifold (WEST)"; icon_state = "manifold"; dir = 8},/turf/closed/wall/shuttle,/area/space)
+"aY" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible,/obj/machinery/atmospherics/components/binary/pump{dir = 4; name = "Distro to Portable Pump"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"aZ" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 8},/obj/machinery/portable_atmospherics/pump,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"ba" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4; name = "input gas connector port"},/obj/machinery/portable_atmospherics/canister/nitrous_oxide{filled = 0.1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bb" = (/obj/machinery/atmospherics/components/trinary/filter{filter_type = "n2o"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bc" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 8},/obj/structure/fireaxecabinet{step_x = -32},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bd" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 8},/obj/machinery/portable_atmospherics/scrubber,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"be" = (/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 4; name = "input gas connector port"},/obj/machinery/portable_atmospherics/canister,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bf" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4; initialize_directions = 12},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bg" = (/obj/machinery/atmospherics/components/trinary/filter/flipped{dir = 4; filter_type = "plasma"},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bh" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 9},/obj/machinery/atmospherics/components/unary/vent_scrubber{dir = 2; on = 1; scrub_Toxins = 0},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bi" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 5},/obj/machinery/suit_storage_unit/atmos,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bj" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{dir = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bk" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 4},/obj/machinery/atmospherics/components/unary/portables_connector/visible{dir = 1; layer = 2.9},/obj/machinery/portable_atmospherics/canister/toxins{filled = 0.1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bl" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bm" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 5},/turf/closed/wall/shuttle,/area/space)
+"bn" = (/obj/machinery/door/airlock/atmos{name = "Emergency Atmospherics"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden{tag = "icon-manifold-b-f (NORTH)"; dir = 1},/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"bo" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden{dir = 9},/turf/closed/wall/shuttle,/area/space)
 
 (1,1,1) = {"
 aaabababacadaeabababaf
 agahaiajakalamanaoapaq
 agarasatauavawaxayazaq
 agaAaBaCaDaCaEaFaGaraq
-aHaIananaJanaKaxaLaraM
-aNarananaOaCaPaFaGaraQ
-aRaranananananaSaTaUaV
-aWaXaYananananaZbaaraq
-aqaUbbananbcbdbebfaraq
-aqbgalalbhalalbibjamaq
-bkabababaeadblabababbm
+aHaIaJaJaKaJaLaxaMaraN
+aOaraJaJaPaCaQaFaGaraR
+aSaraJaJaJaJaJaTaUaVaW
+aXaYaZaJaJaJaJbabbaraq
+aqbcbdaJaJbebfbgbharaq
+aqbialalbjalalbkblamaq
+bmabababaeadbnabababbo
 "}
