@@ -1,0 +1,21 @@
+"a" = (/turf/closed/wall/shuttle{icon_state = "swall_f6"; dir = 2},/area/space)
+"b" = (/turf/closed/wall/shuttle{icon_state = "swall12"; dir = 2},/area/space)
+"c" = (/turf/closed/wall/shuttle{dir = 2; icon_state = "swall_f10"; layer = 2},/area/space)
+"d" = (/turf/closed/wall/shuttle{icon_state = "swall3"; dir = 2},/area/space)
+"e" = (/turf/open/floor/plasteel/shuttle/yellow,/area/space)
+"f" = (/turf/closed/wall/shuttle{icon_state = "swall_f5"; dir = 2},/area/space)
+"g" = (/turf/closed/wall/shuttle{icon_state = "swall_f9"; dir = 2},/area/space)
+
+(1,1,1) = {"
+abbbbbbbbbc
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+deeeeeeeeed
+fbbbbbbbbbg
+"}
