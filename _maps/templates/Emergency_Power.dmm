@@ -1,44 +1,58 @@
 "a" = (/turf/closed/wall/shuttle{icon_state = "swall_f6"; dir = 2},/area/maintenance/electrical)
 "b" = (/turf/closed/wall/shuttle{icon_state = "swall12"; dir = 2},/area/maintenance/electrical)
 "c" = (/obj/machinery/door/airlock/engineering{name = "Emergency Power Unit"},/obj/machinery/door/firedoor,/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
-"d" = (/turf/closed/wall/shuttle{dir = 2; icon_state = "swall_f10"; layer = 2},/area/maintenance/electrical)
-"e" = (/turf/closed/wall/shuttle{icon_state = "swall3"; dir = 2},/area/maintenance/electrical)
-"f" = (/obj/machinery/computer/monitor{name = "emergncy power monitoring console"},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
-"g" = (/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
-"h" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner,/area/maintenance/electrical)
-"i" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced,/turf/open/floor/plasteel/warningline,/area/maintenance/electrical)
-"j" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/machinery/door/window{name = "SMES Chamber"; req_access_txt = "11"},/turf/open/floor/plasteel/warningline,/area/maintenance/electrical)
-"k" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner{tag = "icon-warninglinecorners (NORTH)"; icon_state = "warninglinecorners"; dir = 1},/area/maintenance/electrical)
-"l" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced{dir = 4},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (EAST)"; icon_state = "warningline"; dir = 4},/area/maintenance/electrical)
-"m" = (/turf/open/floor/plating{baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface; dir = 9; icon_state = "warnplate"},/area/maintenance/electrical)
-"n" = (/turf/open/floor/plating{dir = 1; icon_state = "warnplate"},/area/maintenance/electrical)
-"o" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 5},/area/maintenance/electrical)
-"p" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced{dir = 8},/turf/open/floor/plasteel/warningline{dir = 8},/area/maintenance/electrical)
-"q" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 8},/area/maintenance/electrical)
-"r" = (/turf/open/floor/plating,/area/maintenance/electrical)
-"s" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 4},/area/maintenance/electrical)
-"t" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/machinery/door/window{dir = 4; name = "SMES Chamber"; req_access_txt = "11"},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (EAST)"; icon_state = "warningline"; dir = 4},/area/maintenance/electrical)
-"u" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/machinery/door/window{dir = 8; name = "SMES Chamber"; req_access_txt = "11"},/turf/open/floor/plasteel/warningline{dir = 8},/area/maintenance/electrical)
-"v" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 10},/area/maintenance/electrical)
-"w" = (/turf/open/floor/plating{icon_plating = "warnplate"; icon_state = "warnplate"},/area/maintenance/electrical)
-"x" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 6},/area/maintenance/electrical)
-"y" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner{tag = "icon-warninglinecorners (WEST)"; icon_state = "warninglinecorners"; dir = 8},/area/maintenance/electrical)
-"z" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced{dir = 1},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (NORTH)"; icon_state = "warningline"; dir = 1},/area/maintenance/electrical)
-"A" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/machinery/door/window{dir = 1; name = "SMES Chamber"; req_access_txt = "11"},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (NORTH)"; icon_state = "warningline"; dir = 1},/area/maintenance/electrical)
-"B" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner{tag = "icon-warninglinecorners (EAST)"; icon_state = "warninglinecorners"; dir = 4},/area/maintenance/electrical)
-"C" = (/turf/closed/wall/shuttle{icon_state = "swall_f5"; dir = 2},/area/maintenance/electrical)
-"D" = (/turf/closed/wall/shuttle{icon_state = "swall_f9"; dir = 2},/area/maintenance/electrical)
+"d" = (/obj/machinery/door/airlock/engineering{name = "Emergency Power Unit"},/obj/machinery/door/firedoor,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"e" = (/turf/closed/wall/shuttle{dir = 2; icon_state = "swall_f10"; layer = 2},/area/maintenance/electrical)
+"f" = (/turf/closed/wall/shuttle{icon_state = "swall3"; dir = 2},/area/maintenance/electrical)
+"g" = (/obj/machinery/computer/monitor{name = "emergncy power monitoring console"},/obj/structure/cable/yellow{icon_state = "0-2"; d2 = 2},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"h" = (/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"i" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"j" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner,/area/maintenance/electrical)
+"k" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced,/turf/open/floor/plasteel/warningline,/area/maintenance/electrical)
+"l" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/machinery/door/window{name = "SMES Chamber"; req_access_txt = "11"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plasteel/warningline,/area/maintenance/electrical)
+"m" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner{tag = "icon-warninglinecorners (NORTH)"; icon_state = "warninglinecorners"; dir = 1},/area/maintenance/electrical)
+"n" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced{dir = 4},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (EAST)"; icon_state = "warningline"; dir = 4},/area/maintenance/electrical)
+"o" = (/obj/machinery/power/smes{capacity = 9e+006; charge = 10000},/turf/open/floor/plating{baseturf = /turf/open/floor/plating/lava/smooth/lava_land_surface; dir = 9; icon_state = "warnplate"},/area/maintenance/electrical)
+"p" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable/yellow{icon_state = "0-4"; d2 = 4},/turf/open/floor/plating{dir = 1; icon_state = "warnplate"},/area/maintenance/electrical)
+"q" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"; tag = ""},/turf/open/floor/plating{dir = 1; icon_state = "warnplate"},/area/maintenance/electrical)
+"r" = (/turf/open/floor/plating{dir = 1; icon_state = "warnplate"},/area/maintenance/electrical)
+"s" = (/obj/machinery/power/smes{capacity = 9e+006; charge = 10000},/turf/open/floor/plating{icon_state = "warnplate"; dir = 5},/area/maintenance/electrical)
+"t" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced{dir = 8},/turf/open/floor/plasteel/warningline{dir = 8},/area/maintenance/electrical)
+"u" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 8},/area/maintenance/electrical)
+"v" = (/turf/open/floor/plating,/area/maintenance/electrical)
+"w" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plating,/area/maintenance/electrical)
+"x" = (/obj/machinery/power/terminal{dir = 4},/obj/structure/cable/yellow{icon_state = "0-2"; d2 = 2},/turf/open/floor/plating{icon_state = "warnplate"; dir = 4},/area/maintenance/electrical)
+"y" = (/obj/machinery/door/airlock/engineering{name = "Emergency Power Unit"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"z" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"A" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (EAST)"; icon_state = "warningline"; dir = 4},/area/maintenance/electrical)
+"B" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/open/floor/plating{icon_state = "warnplate"; dir = 8},/area/maintenance/electrical)
+"C" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/open/floor/plating,/area/maintenance/electrical)
+"D" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"; tag = ""},/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"; tag = ""},/turf/open/floor/plating,/area/maintenance/electrical)
+"E" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/open/floor/plating{icon_state = "warnplate"; dir = 4},/area/maintenance/electrical)
+"F" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/open/floor/plasteel/warningline{dir = 8},/area/maintenance/electrical)
+"G" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/open/floor/plasteel/shuttle/yellow,/area/maintenance/electrical)
+"H" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 4},/area/maintenance/electrical)
+"I" = (/turf/open/floor/plating{icon_state = "warnplate"; dir = 10},/area/maintenance/electrical)
+"J" = (/turf/open/floor/plating{icon_plating = "warnplate"; icon_state = "warnplate"},/area/maintenance/electrical)
+"K" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"; tag = "90Curve"},/turf/open/floor/plating{icon_plating = "warnplate"; icon_state = "warnplate"},/area/maintenance/electrical)
+"L" = (/obj/machinery/power/smes{capacity = 9e+006; charge = 10000},/turf/open/floor/plating{icon_state = "warnplate"; dir = 6},/area/maintenance/electrical)
+"M" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner{tag = "icon-warninglinecorners (WEST)"; icon_state = "warninglinecorners"; dir = 8},/area/maintenance/electrical)
+"N" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/structure/window/reinforced{dir = 1},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (NORTH)"; icon_state = "warningline"; dir = 1},/area/maintenance/electrical)
+"O" = (/turf/open/floor/plasteel/shuttle/yellow,/obj/machinery/door/window{dir = 1; name = "SMES Chamber"; req_access_txt = "11"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/open/floor/plasteel/warningline{tag = "icon-warningline (NORTH)"; icon_state = "warningline"; dir = 1},/area/maintenance/electrical)
+"P" = (/turf/open/floor/plasteel/shuttle/yellow,/turf/open/floor/plasteel/warningline/corner{tag = "icon-warninglinecorners (EAST)"; icon_state = "warninglinecorners"; dir = 4},/area/maintenance/electrical)
+"Q" = (/turf/closed/wall/shuttle{icon_state = "swall_f5"; dir = 2},/area/maintenance/electrical)
+"R" = (/turf/closed/wall/shuttle{icon_state = "swall_f9"; dir = 2},/area/maintenance/electrical)
 
 (1,1,1) = {"
-abbbcccbbbd
-efgggggggge
-eghiijiikge
-eglmnnnopge
-cglqrrrspgc
-cgtqrrrsugc
-cglqrrrspgc
-eglvwwwxpge
-egyzzAzzBge
-eggggggggge
-CbbbcccbbbD
+abbbcdcbbbe
+fghhhihhhhf
+fijkklkkmhf
+finopqrsthf
+cinuvwvxthc
+yzABCDCEFGy
+chnuvwvHthc
+fhnIJKJLthf
+fhMNNONNPhf
+fhhhhihhhhf
+QbbbcdcbbbR
 "}
